@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi práctica de hmtl semántico</title>
+</head>
+<body>
+    <!--Header es la seccion superior de la página y generalmente incluye informacion introductoria
+    como el titulo y el menu de navegacion-->
+    <header>
+        <h1>Bienvenidos a mi sitio web</h1>
+        <!--Menu de navegación-->
+        <nav>
+            <ul> <!--lista no ordenada-->
+                <li><a href="#sobre-mi">Sobre mi</a></li><!--list ident-->
+                <li><a href="#intereses">Intereses</a></li>
+                <li><a href="#enlaces">Enlaces</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--main es la seccion principal que contnienet e elc ontneido de lapagian
+Se recomeind usar main solo una vez en cad apgina para idnicar la parte mas importate
+del docimento-->
+
+<main>
+    <section id="sobre-mi">
+        <h2>Sobre mi</h2>
+        <p>Me llamo Luis Machorro y estoy aprendiendo desarrollo web y especifico en etiquetas semanticas de HTML</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed excepturi quia sint! Nemo a nam maiores inventore perspiciatis quisquam, minus corporis fugiat cupiditate nulla odio eum sed impedit aliquam itaque.</p>
+    </section>
+
+    <section id="intereses">
+        <h2>Intereses</h2>
+        <ul>
+            <li>Programación</li>
+            <li>Autos</li>
+            <li>Ejercitarme</li>
+            <li>Videojuegos</li>
+        </ul>
+
+        <!--Figure agrupa contenido visual como iamgenes
+        y es comun utlizarla en conjunto con la etiqueta
+        figcaption, que proporciona titulo o descripcion para
+        el contenido visual-->
+        <figure>
+            <img src="./assets/mario.webp" alt="Mi videojuego" width="300" title="al pasar encima con mousez">
+            <figcaption>
+                Imagen represetnatica de mis intereses <!--es un texto representativo-->
+            </figcaption>
+        </figure>
+    </section>
+
+    <section id="enlaces">
+        <h2>Enlaces</h2>
+        <p>Visita estos sitios recomendados para aprender desarrollo web</p>
+        <ul>
+            <!--a es una etiqueta de enlace que viene acompañada de atirbuuto href a la cual 
+            agregamo la direccion a la cual queremso redireccio, otro atributo conmunmente utilzado 
+            el targe que da el control de como se va abrir el enlace-->
+            <li>
+                <a href="https://www.w3schools.com/" target="_blank"> W3schools </a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>
+            </li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Luis Machorro. Todos los derechos reservados</p>
+</footer>
+</body>
+</html>
