@@ -1,0 +1,36 @@
+git init -->comando de git dentro de este proyecto...cambia el color de los archivos barra izquierda para gestionar versiones
+
+git add. --> todolos archivos que se guardaran
+
+gita add --> poner los clases, archivos en lista uno a uno
+
+
+git status --> te dira todos los archivo oa rchivo lsito para poder subir antes de hacer commit
+
+
+git commit -m --> se establecen los cambiso sin embargo aun no están en GitHub
+
+git remote add origin  enlace -->para subir los cambios ya prestablcedios
+
+
+git push -u origin main -->subir los cambios al repor
+
+con git Branch --> podemos saber el nodo raíz para subir los cambios pudiendo ser master, main,etc
+
+git log -->te dice cada coomit en una lista
+
+CADA CAMBIO HACER ESTO;
+
+git status
+git add
+git status
+git commit
+git push
+
+
+
+
+REGRESAR A UN COMMIT EN PARTICULAR
+git log
+
+git checkout HASH del commit previo
