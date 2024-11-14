@@ -1,0 +1,17 @@
+Nuevo carpeta por tanto se crea nuevo reporsitorio en GitHub
+
+git init --> para empezar el contro
+
+git add . 
+git commit -m
+
+git remote add origin enlace
+
+git push -u origin master
+
+
+SUBIR EL ARCHIVO A PAGES
+nos vamos settings
+nos vamos pages
+nos vamos a deploy y master
+empezar el proyecto desde la raíz (root)

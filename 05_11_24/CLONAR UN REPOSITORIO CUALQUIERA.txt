@@ -1,0 +1,15 @@
+CLONAR UN REPOSITORIO CUALQUIERA
+
+-ME VOY A la termina
+
+-doy git clone enlace
+
+-lo uqe hará es clonar todo el repositiorio en la raíz origne propia
+
+-si el dueño actuliza algo, se de colocar
+
+git pull -->para actulziar los cambios de algún repositorio
+
+RESTAURAR UN COMMIT
+
+con git restore puede puede evitar que un commit se termine por subir al repo;es decir se baja de la lista de commits antes del piush
